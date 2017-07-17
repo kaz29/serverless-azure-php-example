@@ -1,0 +1,21 @@
+{
+  "name": "php-example",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaz29/serverless-azure-php-example.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kaz29/serverless-azure-php-example/issues"
+  },
+  "homepage": "https://github.com/kaz29/serverless-azure-php-example#readme",
+  "dependencies": {
+    "serverless-azure-functions": "github:kaz29/serverless-azure-functions#php-sample"
+  }
+}

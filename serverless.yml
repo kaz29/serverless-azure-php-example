@@ -1,0 +1,23 @@
+service: sls-php-example
+
+provider:
+  name: azure
+  location: West US
+
+plugins:
+  - serverless-azure-functions
+
+package:
+  exclude:
+    - node_modules/**
+    - .gitignore
+    - package.json
+    - .git/**
+
+functions:
+  httpjs: 
+     handler: hello.php
+     events: 
+       - http: true
+         x-azure-settings:
+           authLevel : anonymous
